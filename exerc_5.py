@@ -44,3 +44,12 @@ class PayPalPayment(Payment):
 def process_customer_payment(payment):
     print(payment.process_payment())
     print("Payment successful!")
+
+credit_card = CreditCardPayment(amount=1599.99, card_number="1234567890121210", expiry_date=""05/26", cvv="666")
+pay_pal_account = PayPalPayment(amount=789.98, email="paypal@email.com.uy")
+
+print("Processing first payment:")
+process_customer_payment(credit_card)
+
+print("\nProcessing second payment:")
+process_customer_payment(pay_pal_account)
