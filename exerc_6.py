@@ -47,5 +47,5 @@ print("\nModifying attribute on a specific instance:")
 person1.species = "Homo digitalis"
 print(f"After person1.species = 'Homo digitalis':")
 print(f"Person.species: {Person.species}")
-print(f"person1.species: {person1.species}")
-print(f"person2.species: {person2.species}")
+print(f"person1.species: {species1.species}")
+print(f"person2.species: {species2.species}")
