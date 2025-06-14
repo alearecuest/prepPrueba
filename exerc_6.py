@@ -36,7 +36,7 @@ print(f"person1.species: {species1.species}")
 print(f"person2.species: {species2.species}")
 
 print("\nModifying class attribute through the class:")
-Person.species = "Homo sapiens sapiens"
+species1.species = "Homo sapiens sapiens"
 
 print(f"After Person.species = 'Homo sapiens sapiens':")
 print(f"Person.species: {Person.species}")
@@ -44,7 +44,7 @@ print(f"person1.species: {species1.species}")
 print(f"person2.species: {species2.species}")
 
 print("\nModifying attribute on a specific instance:")
-person1.species = "Homo digitalis"
+species1.species = "Homo digitalis"
 print(f"After person1.species = 'Homo digitalis':")
 print(f"Person.species: {Person.species}")
 print(f"person1.species: {species1.species}")
